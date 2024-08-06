@@ -40,7 +40,9 @@ export default function Home() {
                 </li>
               ))}
             </ul>
-            <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded" onClick={() => setInvoiceData(null)}>Edit Invoice</button>
+            <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded" onClick={() => setInvoiceData(null)}>
+              Edit Invoice
+            </button>
           </div>
         )}
       </div>
